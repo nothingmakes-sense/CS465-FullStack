@@ -1,0 +1,10 @@
+.npm
+.enlintcache
+.node_repl_history
+.tgz
+.yarn-integrity
+.env
+.next
+.vscode/*
+*.code-workspace
+node_modules/*
