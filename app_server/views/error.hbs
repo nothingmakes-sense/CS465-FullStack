@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error {{status}}</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 50px; background: #f4f4f4; color: #333; }
+        h1 { color: #dc3545; font-size: 3rem; margin-bottom: 10px; }
+        p { font-size: 1.2rem; }
+        pre { background: #eee; padding: 15px; border-radius: 5px; text-align: left; max-width: 600px; margin: 20px auto; overflow-x: auto; }
+        a { color: #007bff; text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <h1>Error {{status}}</h1>
+    <p>{{message}}</p>
+
+    {{#if error.stack}}
+        <pre>{{error.stack}}</pre>
+    {{/if}}
+
+    <br>
+    <a href="/">Return Home</a>
+
+</body>
+</html>
