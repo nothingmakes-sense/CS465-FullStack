@@ -1,31 +1,16 @@
 [
     {
-        "code": "GALE-REEF",
         "name":"Gale Reef",
-        "length": "3 days",
-        "start": "2023-06-01",
-        "resort": "Bali",
-        "perPerson": "$500",
         "image":"reef1.jpg",
         "description":"<p>Gale Reef Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida.</p>"
     },
     {
-        "code": "DAWSN-REEF",
         "name":"Dawson's Reef",
-        "length": "3 days",
-        "start": "2023-06-01",
-        "resort": "Bali",
-        "perPerson": "$500",
         "image":"reef2.jpg",
         "description":"<p>Dawson's Reef Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida.</p>"
     },
     {
-        "code": "CLAI-REEF",
         "name":"Claire's REEF",
-        "length": "3 days",
-        "start": "2023-06-01",
-        "resort": "Bali",
-        "perPerson": "$500",
         "image":"reef3.jpg",
         "description":"<p>Claire's REEF Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida.</p>"
     }
