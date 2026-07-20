@@ -1,31 +1,43 @@
 [
     {
+<<<<<<< HEAD
         "code":"GR",
         "name":"Gale Reef",
         "length":"5 days",
         "start":"2024-06-01",
         "resort":"Gale Reef Resort",
         "perPerson":"$1,500",
+=======
+        "name":"Gale Reef",
+>>>>>>> parent of c9044f1 (Module 4 baseline)
         "image":"reef1.jpg",
         "description":"<p>Gale Reef Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida.</p>"
     },
     {
+<<<<<<< HEAD
         "code":"DR",
         "name":"Dawson's Reef",
         "length":"5 days",
         "start":"2024-06-01",
         "resort":"Dawson's Reef Resort",
         "perPerson":"$1,500",
+=======
+        "name":"Dawson's Reef",
+>>>>>>> parent of c9044f1 (Module 4 baseline)
         "image":"reef2.jpg",
         "description":"<p>Dawson's Reef Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida.</p>"
     },
     {
+<<<<<<< HEAD
         "code":"CR",
         "name":"Claire's REEF",
         "length":"5 days",
         "start":"2024-06-01",
         "resort":"Claire's REEF Resort",
         "perPerson":"$1,500",
+=======
+        "name":"Claire's REEF",
+>>>>>>> parent of c9044f1 (Module 4 baseline)
         "image":"reef3.jpg",
         "description":"<p>Claire's REEF Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida.</p>"
     }
