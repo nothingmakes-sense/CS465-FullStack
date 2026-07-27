@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const readLine = require('readline');
+const Trip = require('./travlr');
 
 // Prefer a full URI if provided via environment variable
 const dbURI = process.env.MONGODB_URI ||
@@ -68,6 +69,6 @@ process.on('SIGTERM', () => {
 connect();
 
 // Import Mongoose schema
-require('./trip');
+require("./travlr");
 
 module.exports = mongoose;
