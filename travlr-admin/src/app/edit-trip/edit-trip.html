@@ -1,6 +1,6 @@
 <div class="col-md-4">
-    <h2 class="text-center">Add Trip</h2>
-    <form *ngIf="addForm" [formGroup]="addForm" (ngSubmit)="onSubmit()">
+    <h2 class="text-center">Edit Trip</h2>
+    <form *ngIf="editForm" [formGroup]="editForm" (ngSubmit)="onSubmit()">
         <div class="form-group">
             <label>Code:</label>
             <input type="text" formControlName="code" placeholder="Code" class="form-control" [ngClass]="{ 'is-invalid': submitted && f['code'].errors
