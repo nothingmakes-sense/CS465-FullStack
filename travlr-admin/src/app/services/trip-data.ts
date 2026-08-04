@@ -23,7 +23,7 @@ export class TripData {
   getTrip(tripCode: string): Observable<Trip> {
     return this.http.get<Trip>(this.url+ '/' + tripCode);
   }
-  updateTrip(tripCode: string, formData: Trip): Observable<Trip> {
+  updateTrip(formData: Trip): Observable<Trip> {
     return this.http.put<Trip>(this.url + '/' + formData.code, formData);
   }
 }
