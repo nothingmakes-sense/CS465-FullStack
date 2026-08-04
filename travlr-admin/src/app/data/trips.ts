@@ -1,3 +1,4 @@
+export const trips =
 [
     {
         "code":"GR",
@@ -5,7 +6,7 @@
         "length":"5 days",
         "start":"2024-06-01",
         "resort":"Gale Reef Resort",
-        "perPerson":"1,500.00",
+        "perPerson":"1500.00",
         "image":"reef1.jpg",
         "description":"<p>Gale Reef Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida.</p>"
     },
@@ -15,7 +16,7 @@
         "length":"5 days",
         "start":"2024-06-01",
         "resort":"Dawson's Reef Resort",
-        "perPerson":"1,500.00",
+        "perPerson":"1500.00",
         "image":"reef2.jpg",
         "description":"<p>Dawson's Reef Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida.</p>"
     },
@@ -25,9 +26,8 @@
         "length":"5 days",
         "start":"2024-06-01",
         "resort":"Claire's REEF Resort",
-        "perPerson":"1,500.00",
+        "perPerson":"1500.00",
         "image":"reef3.jpg",
         "description":"<p>Claire's REEF Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida.</p>"
     }
-
-]
+];
