@@ -4,6 +4,7 @@ import {trips} from '../data/trips';
 import {TripCard} from '../trip-card/trip-card';
 import {Trip} from '../models/trip';
 import {TripData} from '../services/trip-data';
+import {Router} from '@angular/router';
 
 
 @Component({
@@ -17,12 +18,16 @@ export class TripListing implements OnInit{
   trips: Array<Trip> = [];
   message: string = '';
 
-  constructor(private tripData: TripData) {
+  constructor(private tripData: TripData, private router: Router) {
     console.log('trip-listing constructor')
   }
 
+  public addTrip(): void {
+    this.router.navigate(['add-trip']);
+  }
   private getStuff(): void {
-    this.tripData.getTrips().subscribe({
+    this.tripData.getTrips()
+    .subscribe({
       next: (value:any) => {
         this.trips = value;
         if (value.length > 0){
