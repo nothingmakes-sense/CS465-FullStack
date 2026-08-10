@@ -11,6 +11,9 @@ var travelRouter = require('./app_server/routes/travel');
 var apiRouter = require('./app_api/routes/index');
 
 
+require('dotenv').config();
+
+
 //DB
 require('./app_api/models/db');
 
