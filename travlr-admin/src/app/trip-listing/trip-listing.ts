@@ -12,7 +12,6 @@ import {Router} from '@angular/router';
   imports: [CommonModule, TripCard],
   templateUrl: './trip-listing.html',
   styleUrl: './trip-listing.css',
-  providers: [TripData]
 })
 export class TripListing implements OnInit{
   trips: Array<Trip> = [];
