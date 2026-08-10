@@ -11,8 +11,8 @@ function verifyToken(req, res, next) {
         if (!authHeader || authHeader === null) {
                 return res.sendStatus(401);
         }
-        let headers = authHeader.Routersplit(' ');
-        if (headers.leagth < 1) {
+        let headers = authHeader.split(' ');
+        if (headers.length < 2) {
                 return res.sendStatus(501);
         }
         const token = authHeader.split(' ')[1];
